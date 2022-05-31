@@ -1,0 +1,783 @@
+*{
+    margin: 0;
+}
+
+.navbar{
+    background-color:white ;
+    font-family: audiowide;
+    display:flex;    
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10%;
+    font-size: 2.5vw;
+    margin:0;
+    position: fixed;
+    top: 0;
+   width: 100%;
+   overflow: hidden;
+   z-index: 2;
+   
+   
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+
+}
+    .navbar-text{
+    background-color: RGB(254, 252, 215);
+    font-family:audiowide, helevetica;
+    display:flex;    
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.team:hover{
+    
+    color: rgba(255, 102, 0, 0.965);
+    cursor: pointer;
+ 
+
+}
+.faqs:hover{
+    color: rgba(255, 102, 0, 0.965);
+    cursor: pointer;
+  
+}
+.roadmap:hover{
+    color: rgba(255, 102, 0, 0.965);
+    cursor: pointer;
+    
+}
+.About:hover{
+    color: rgba(255, 102, 0, 0.965);
+    cursor: pointer;
+
+}
+.litePaper:hover{
+    color: rgba(255, 102, 0, 0.965);
+    cursor: pointer;
+ 
+}
+
+    .navbar-logo{
+    height: auto;
+    width: 12.5vw;
+    text-align: left;
+   margin-left: 3.5vw;
+    }
+
+
+
+
+ .hero{
+     background-color: black;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     
+ }
+
+  
+ .background1-img{
+  height:auto;
+  width: 90vw;    
+  margin-top: 10vh;
+  
+  
+}
+    .background2-img{
+      height:auto;
+  width: 90vw; 
+        margin-top: 5vh;
+    }
+    .background3-img{
+      height: auto;
+      width:60vw;    
+      margin-top: 3vh;
+      border: #fff;
+      border-style: solid;
+      border-radius: 15px;
+  }
+    .hero-text{
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        height: auto;
+        width:80vw;
+        font-size: 2.5vw;
+        color: white;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+    
+    /* Mint button styling */
+    .button {
+      /* height: 8vh;
+      width:15vw; */
+      background-color: black;
+      color: white;
+      border: 2px solid white;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size:3vw;
+      padding: 10px 15px;
+      margin: 2px 5px;
+      -webkit-transition-duration: .4s; /* Safari */
+      transition-duration: .4s;
+      cursor: pointer;
+    border-radius:20%;
+    border-width:.5vw;
+    font-family: audiowide;
+  }
+  
+  .button:hover {
+      background-color: white;
+      color: black;
+  }
+
+  
+  /*Bounce*/
+  @keyframes kreep {
+      0% {-webkit-transform: scale(1.1,.9);
+          transform: scale(1.1,.9);}
+     50% { -webkit-transform: scale(.9,1.1) translateY(-.5rem)}
+     70% { -webkit-transform: scale(1);
+           transform: scale(1);}
+  }
+  
+  .kreep.kreep {
+    display: inline-block;
+    /*name-duration-function(ease,eas-in,linear)-delay-count-direction */
+    animation: kreep 0.7s ease 2s infinite alternate;
+  
+  }
+  
+  .kreep.kreep:hover {
+    animation: none;
+  }
+  /*END BOUNCER*/
+    /* Mint button end */
+    .moonComp{
+      color:white;
+      padding-top:15vh;
+      font-size: 4vw;
+      font-family: audiowide;
+}
+
+      .background2{
+          color:white;
+        background-color: black;  
+         display:flex;
+         padding-top: 10vh;
+    }
+    
+    .moonImages{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height:60%;
+        width: 100%;
+   
+        font-size: 3vw;
+        
+        
+    }
+    .harvest{
+      font-size: 2.5vw;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+     margin-bottom: 3vw;
+     border: 8px solid;
+     padding: 1rem;
+       border-image: linear-gradient(to left,black,white,rgb(255, 255, 132),white,black) 1 0;
+    }
+    .harvestMoonText{
+      height: auto;
+        width: 30%;
+        font-family: audiowide;
+        text-align:center;
+    
+
+    }
+    .harvestMoon{
+      align-self: flex-end;
+      margin-top: 40px;
+      height: auto;
+      width: 40vw;  
+        
+    }
+    .blue{
+      font-size: 2.5vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+       margin-bottom: 3vw;
+       border: 8px solid;
+       padding: 1rem;
+       border-image: linear-gradient(to left,black, blue,black) 1 0;
+
+    }
+    .blueMoon{
+        align-self: flex-start;
+        margin-top: 40px;
+        height: auto;
+        width: 40vw;
+        
+       
+    }
+    .blueMoonText{
+        height: auto;
+        width: 30%;
+        font-family: audiowide;
+        text-align:center;
+    }
+    .blood{
+      font-size: 2.5vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+       margin-bottom: 3vw;
+       border: 8px solid;
+       padding: 1rem;
+       border-image: linear-gradient(to left, black,purple,red,purple,black) 1 0;
+
+    }
+    .bloodMoon{
+        align-self: flex-end;
+        margin-top: 40px;
+        height: auto;
+        width: 40vw;  
+    }
+
+    .bloodMoonText{
+        height: auto;
+        width: 30%;
+        font-family: audiowide;
+        text-align:center;
+    }
+    .black{
+      font-size: 2.5vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+       margin-bottom: 3vw;
+       border: 8px solid;
+       padding: 1rem;
+       border-image: linear-gradient(to left, black,gold,gold,black) 1 0;
+    }
+    .blackMoon{
+        align-self: flex-start;
+        margin-bottom: 10vh;
+        margin-left: 2vw;
+        margin-top: 40px;
+        height: auto;
+        width: 40vw;
+      
+    }
+    .blackMoonText{
+        height: auto;
+        width: 30%;
+        font-family: audiowide;
+        text-align:center;
+    }
+
+    .gameInfo{
+      display: flex;
+     padding: 10vh 15vw;
+     width: 100%;
+     font-family: audiowide;
+     text-align: center;
+     background:linear-gradient(black,grey,black);
+     line-height: 1.5;
+
+    }
+
+    .background3{
+        font-size: 3.5vw;
+        color:white;
+        background-color:black;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10vh;
+        font-family: audiowide;
+    }
+
+    .tokenomics{
+        padding-top: 10vh;
+        padding-bottom: 7.5vh;
+        height: auto;
+        width: 100%;
+        
+    }
+
+    .background4{
+     display:flex;
+     flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+    font-size: 3.5vw;
+    margin-bottom: 10vh;
+    font-family: helvetica;
+    
+    }
+
+
+    .teamBox1{
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        width:16vw;
+        text-align: center;
+    }
+    .teamBox2{
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        width:16vw;
+        text-align: center;
+    }
+    .teamBox3{
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        width:16vw;
+        text-align: center;
+    }
+    .teamBox4{
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        width: 16vw;
+        text-align:center;
+    }
+    .teamBoxes{
+        margin-top: 4vh;
+        font-weight: bold;
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        width: 100vw;
+        text-align: center;
+    }
+    .teamTitles{
+        margin-top: .5vh;
+        font-style: italic;
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        width: 100vw;
+    }
+  
+   /* Timeline START */
+   *,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+/* INTRO SECTION
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.intro {
+  background:rgb(72, 36, 167);
+  font-family: audiowide;
+  color:wheat;
+  display: flex;
+  justify-content: center;
+  padding-top:4vh;
+  padding-bottom:4vh;
+  font-size: 6vw;
+  
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin-right: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+
+/* TIMELINE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline ul {
+  font-family: helvetica;
+  background: linear-gradient(white,rgb(144, 252, 255),rgb(4, 172, 239),rgba(255, 102, 0, 0.965));
+  padding: 50px 0;
+  font-size: 1.75vh;
+  line-height: 1.5;
+}
+
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background: #fff;
+}
+
+.timeline ul li::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: inherit;
+  z-index: 1;
+}
+
+.timeline ul li div {
+  color:wheat;
+  position: relative;
+  bottom: 0;
+  width: 400px;
+  padding: 15px;
+  background:linear-gradient(rgb(129, 122, 223),rgb(72, 36, 167)) ;
+}
+
+.timeline ul li div::before {
+  content: "";
+  position: absolute;
+  bottom: 7px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.timeline ul li:nth-child(odd) div {
+  left: 45px;
+}
+
+.timeline ul li:nth-child(odd) div::before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent rgb(72, 36, 167) transparent transparent;
+}
+
+.timeline ul li:nth-child(even) div {
+  left: -439px;
+}
+
+.timeline ul li:nth-child(even) div::before {
+  right: -15px;
+  border-width: 8px 0 8px 16px;
+  border-color: transparent transparent transparent rgb(72, 36, 167);
+}
+
+time {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+
+/* EFFECTS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline ul li::after {
+  transition: background 0.5s ease-in-out;
+}
+
+.timeline ul li.in-view::after {
+  background: rgba(255, 102, 0, 0.965);
+}
+
+.timeline ul li div {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.timeline ul li:nth-child(odd) div {
+  transform: translate3d(200px, 0, 0);
+}
+
+.timeline ul li:nth-child(even) div {
+  transform: translate3d(-200px, 0, 0);
+}
+
+.timeline ul li.in-view div {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
+
+
+/* GENERAL MEDIA QUERIES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media screen and (max-width: 900px) {
+  .timeline ul li div {
+    width: 250px;
+  }
+  .timeline ul li:nth-child(even) div {
+    left: -289px;
+    /*250+45-6*/
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .timeline ul li {
+    margin-left: 20px;
+  }
+  .timeline ul li div {
+    width: calc(100vw - 91px);
+  }
+  .timeline ul li:nth-child(even) div {
+    left: 45px;
+  }
+  .timeline ul li:nth-child(even) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #f45b69 transparent transparent;
+  }
+}
+
+
+/* EXTRA/CLIP PATH STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.timeline-clippy ul li::after {
+  width: 40px;
+  height: 40px;
+  border-radius: 0;
+}
+
+.timeline-rhombus ul li::after {
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.timeline-rhombus ul li div::before {
+  bottom: 12px;
+}
+
+.timeline-star ul li::after {
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+}
+
+.timeline-heptagon ul li::after {
+  clip-path: polygon(
+    50% 0%,
+    90% 20%,
+    100% 60%,
+    75% 100%,
+    25% 100%,
+    0% 60%,
+    10% 20%
+  );
+}
+
+.timeline-infinite ul li::after {
+  animation: scaleAnimation 2s infinite;
+}
+
+@keyframes scaleAnimation {
+  0% {
+    transform: translateX(-50%) scale(1);
+  }
+  50% {
+    transform: translateX(-50%) scale(1.25);
+  }
+  100% {
+    transform: translateX(-50%) scale(1);
+  }
+}
+   /*Timeline END  */
+
+   /* FAQ Start */
+   body {
+    font-family: "IBM Plex Sans", sans-serif;
+    background-color: rgba(0,0,0,.1);
+  }
+  
+  h2 {
+    margin: 20px auto 80px;
+    font-size: 38px;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 1.5;
+  }
+  
+  details {
+    width: 75%;
+    min-height: 5px;
+    max-width: 700px;
+    padding: 45px 70px 45px 45px;
+    margin: 0 auto;
+    position: relative;
+    font-size: 22px;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 15px;
+    box-sizing: border-box;
+    transition: all .3s;
+  }
+  
+  details + details {
+    margin-top: 20px;
+  }
+  
+  details[open] {
+    min-height: 50px;
+    background-color: #f6f7f8;
+    box-shadow: 2px 2px 20px rgba(0,0,0,.2);
+  }
+  
+  details p {
+    color: #96999d;
+    font-weight: 300;
+  }
+  
+  summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  summary:focus {
+    outline: none;
+    
+  }
+  
+  summary:focus::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 0 5px rebeccapurple;
+  }
+  
+  summary::-webkit-details-marker {
+    display: none
+  }
+  
+  .control-icon {
+    fill: rebeccapurple;
+    transition: .3s ease;
+    pointer-events: none;
+  }
+  
+  .control-icon-close {
+    display: none;
+  }
+  
+  details[open] .control-icon-close {
+    display: initial;
+    transition: .3s ease;
+  }
+  
+  details[open] .control-icon-expand {
+    display: none;
+  }
+  
+   /* FAQ END */
+
+   /*Footer*/
+   .footer{
+    background-color:white ;
+    font-family:Helvetica;
+    font-size: 2.5vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10vh;
+    width:auto;
+    margin-top: 10vh;
+  
+}
+   /* Footer End*/
+
+
+/* Lite Paper */
+
+#lpContainer{
+  color:white;
+display: flex;
+flex-direction: column;
+align-items: center;
+background: linear-gradient(White,rebeccapurple,rgba(255, 102, 0, 0.965),black,#f45b69,blue,white,black);
+}
+
+.lpLogo{
+  height: auto;
+  width: 60vw;
+  text-align: left;
+ margin-left: 3.5vw;
+ cursor: pointer;
+ margin-top: 10vh;
+  }
+
+  .lpHeading{
+font-size: 5vw;
+padding-bottom: 4vh;
+padding-top: 4vh;
+text-align: center;
+  }
+
+  .lpText{
+width: 80vw;
+line-height: 1.75; 
+  }
+  .lpList{
+    padding-bottom: 4.5vh;
+  
+  }
+
+  .lpHome{
+    color:black;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 4vw;
+    background-color: rgb(234, 230, 230);
+    padding:4vw;
+    font-family: audiowide;
+    position: fixed;
+    top: 0;
+   width: 100%;
+   overflow: hidden;
+   z-index: 2;
+    }
+
+    .lpHome:hover{
+      color:rgba(255, 102, 0, 0.965);
+    }
