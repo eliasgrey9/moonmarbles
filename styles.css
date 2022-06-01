@@ -611,7 +611,7 @@ time {
     transform: translateX(-50%) scale(1);
   }
   50% {
-    transform: translateX(-50%) scale(1);
+    transform: translateX(-50%) scale(1.25);
   }
   100% {
     transform: translateX(-50%) scale(1);
