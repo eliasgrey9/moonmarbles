@@ -498,7 +498,7 @@ time {
 
 /* EFFECTS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* 
+
 .timeline ul li::after {
   transition: background 0.5s ease-in-out;
 }
@@ -514,18 +514,18 @@ time {
 }
 
 .timeline ul li:nth-child(odd) div {
-  transform: translate3d(200px, 0, 0);
+  transform: translate3d(100px, 0, 0);
 }
 
 .timeline ul li:nth-child(even) div {
-  transform: translate3d(-200px, 0, 0);
+  transform: translate3d(-100px, 0, 0);
 }
 
 .timeline ul li.in-view div {
   transform: none;
   visibility: visible;
   opacity: 1;
-} */
+}
 
 
 /* GENERAL MEDIA QUERIES
