@@ -67,6 +67,7 @@ a, a:hover, a:focus, a:active {
     width: 12.5vw;
     text-align: left;
    margin-left: 3.5vw;
+  
     }
 
 
@@ -85,7 +86,7 @@ a, a:hover, a:focus, a:active {
  .background1-img{
   height:auto;
   width: 90vw;    
-  margin-top: 10vh;
+  margin-top: 16vh;
   
   
 }
@@ -622,6 +623,7 @@ time {
    body {
     font-family: "IBM Plex Sans", sans-serif;
     background-color: rgba(0,0,0,.1);
+    white-space: no-wrap;
   }
   
   h2 {
@@ -767,15 +769,16 @@ line-height: 1.75;
     display:flex;
     flex-direction: row;
     justify-content: flex-start;
-    font-size: 4vw;
+    font-size:3vw;
     background-color: rgb(234, 230, 230);
-    padding:4vw;
+    padding:2vw;
     font-family: audiowide;
     position: fixed;
     top: 0;
    width: 100%;
    overflow: hidden;
    z-index: 2;
+
     }
 
     .lpHome:hover{
