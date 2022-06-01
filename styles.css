@@ -498,7 +498,7 @@ time {
 
 /* EFFECTS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
+/* 
 .timeline ul li::after {
   transition: background 0.5s ease-in-out;
 }
@@ -525,7 +525,7 @@ time {
   transform: none;
   visibility: visible;
   opacity: 1;
-}
+} */
 
 
 /* GENERAL MEDIA QUERIES
