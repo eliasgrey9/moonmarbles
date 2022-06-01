@@ -483,7 +483,7 @@ h1 {
 }
 
 .timeline ul li:nth-child(even) div::before {
-  right: -15px;
+  right: 15px;
   border-width: 8px 0 8px 16px;
   border-color: transparent transparent transparent rgb(72, 36, 167);
 }
