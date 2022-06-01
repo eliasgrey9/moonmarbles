@@ -454,7 +454,7 @@ h1 {
   color:wheat;
   position: relative;
   bottom: 0;
-  width: 100%;
+  width: 400px;
   padding: 15px;
   background:linear-gradient(rgb(129, 122, 223),rgb(72, 36, 167)) ;
 }
