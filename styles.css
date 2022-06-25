@@ -111,6 +111,7 @@ a, a:hover, a:focus, a:active {
         color: white;
         margin-top: 5vh;
         margin-bottom: 5vh;
+        text-align: center;
     }
     
     /* Mint button styling */
